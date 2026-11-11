@@ -1,0 +1,19 @@
+# ARCHIVOS EXCLUIDOS.
+# No subir contraseñas de mysql.
+/app/config.php
+# No cargar variables del entorno.
+.env
+.env.*
+# Permitir archivos de configuración de ejemplos.
+!.env.example
+# No subir dependencia instaladas
+/vendor/
+node_modules/
+# No subir archivos archivos temporales y registro
+*.log
+*.tmp
+# Archivos generados por windows
+Trumbs.db
+# Archivos generados macOS
+.DS_Store
+
